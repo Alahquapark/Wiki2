@@ -3,7 +3,7 @@
 
 <head>
   <title>Wiki2 Proiektua</title>
-  <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/myCss.css">
   <script src="../js/jquery.min.js"></script>
   <script src="../js/bootstrap.min.js"></script>
   <script src="../js/jquery-3.2.1.slim.min.js"></script>
@@ -29,9 +29,7 @@
         <a class="nav-link" href="laburpena.html">Laburpena</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
-          Tutorialak
-        </a>
+        <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown"> Tutorialak </a>
         <div class="dropdown-menu">
           <a class="dropdown-item" href="tutorialDNS.html">DNS</a>
           <a class="dropdown-item" href="tutorialFTP.html">FTP</a>
@@ -39,19 +37,55 @@
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
-          Bideoak
-        </a>
+        <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown"> Bideoak </a>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="bideoaDNS.html">bideoaDNS</a>
-          <a class="dropdown-item" href="bideoaFTP.html">bideoaFTP</a>
-          <a class="dropdown-item" href="bideoaDebian.html">bideoaDebian</a>
+          <a class="dropdown-item" href="tutorialProxmox.html">Proxmox</a>
+          <a class="dropdown-item" href="tutorialDebian.html">Debian</a>
+          <a class="dropdown-item" href="tutorialApache.html">Apache</a>
+          <a class="dropdown-item" href="tutorialDNS.html">DNS</a>
+          <a class="dropdown-item" href="tutorialFTP.html">FTP</a>
         </div>
       </li>
     </ul>
   </nav>
+
   <p>tutorialDNS</p>
 
+  <div id="carousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <div class="imgCarousel">
+          <img src="../images/dns/01.png" alt="img 01">
+          <img src="../images/dns/02.png" alt="img 02">
+        </div>
+
+
+        <div class="carousel-caption d-none d-md-block">
+          <h5>PAUSO 1</h5>
+          <p>ProFTP zerbitzaria erabiliko dugu fitxategien transferentzia egin ahal izateko. Hasteko, esan beharra dago
+            Debian sistema eragilea erabiliko dugula hori egin ahal izataeko. Orduan, sistema eragilea eguneratu eta
+            ProFTP hau instalatu behar dugu.</p>
+        </div>
+      </div>
+
+
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
 
 </body>
 
