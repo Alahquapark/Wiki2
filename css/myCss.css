@@ -6,28 +6,40 @@
 }
 
 
-#carrousel {
+#carousel {
     height: 50% !important;
     width: 50% !important;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0%;
     left: 0;
     right: 0;
+    background: rgb(199, 199, 199);
 }
 
-#carrousel img {
-    padding-bottom: 200px;
+#carousel img {
+    padding-top: 20px;
+    height: auto;
+    width: auto;
     text-align: center;
 }
 
 h5, p {
     color: black;
+    background: rgba(87, 87, 87, 0.322);
 }
 
-#carrousel span {
+#carousel span {
     background-color: grey;
-    color: black;
-    
+    color: black;    
+}
+
+.imgCarousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 250px;
 }
 
