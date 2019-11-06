@@ -1,6 +1,5 @@
-@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
-@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js");
-@import url("https://use.fontawesome.com/releases/v5.7.0/css/all.css");
+@import url("bootstrap.min.css");
+
 
 header{
     background-color: #81AFEA;
@@ -13,9 +12,7 @@ body{
     background-color: #81AFEA;
 
 }
-.navbar-nav{
-    margin-right: 100px;
-}
+
 footer{
     background-color:black ;
     float: bottom;
