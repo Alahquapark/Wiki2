@@ -12,7 +12,8 @@
 
 <body>
   <header>
-
+    <!-- ------------------- -->
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
       <!-- Brand/logo -->
       <a class="navbar-brand" href="hasiera.html">
@@ -74,8 +75,12 @@
     <a class="breadcrumb-item" href="hasiera.html">Hasiera</a>
     <span class="breadcrumb-item active">Tutorial-DNS</span>
   </nav>
+  <!-- ------------------- -->
+
   <p>tutorialDNS</p>
 
+  <!-- -------------------------------------------- -->
+  <!-- CAROUSEL -->
   <div id="carousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -91,7 +96,6 @@
           <img src="../images/dns/02.png" alt="img 02">
         </div>
 
-
         <div class="carousel-caption d-none d-md-block">
           <h5>PAUSO 1</h5>
           <p>ProFTP zerbitzaria erabiliko dugu fitxategien transferentzia egin ahal izateko. Hasteko, esan beharra dago
@@ -100,17 +104,33 @@
         </div>
       </div>
 
+      <div class="carousel-item">
+        <div class="imgCarousel">
+          <img src="../images/dns/03.png" alt="img 03">
+          <img src="../images/dns/04.png" alt="img 04">
+        </div>
 
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>PAUSO 2</h5>
+          <p>DNSMASQ dns forward bat da, hau da, ez daki rootservers-era joaten, horretarako guk geuk esan behar diogu
+            zein dns-ra bideratu behar den. Horretarako ‘resolv.dnsmasq.conf’' fitxategia editatu behar dugu 10.9.52.104
+            jarriz.</p>
+        </div>
+      </div>
+
+
+      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
 
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
     </div>
+    <!-- -------------------------------------------- -->
+
 
 </body>
 
