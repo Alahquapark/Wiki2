@@ -1,44 +1,38 @@
-@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
-@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js");
-@import url("https://use.fontawesome.com/releases/v5.7.0/css/all.css");
+@import url("bootstrap.min.css");
+@import url("myCss.css");
 
 header{
     background-color: #81AFEA;
 }
+
 header h1{
     margin:0px;
-
 }
+
 body{
     background-color: #81AFEA;
 
 }
+
 .navbar-nav{
     margin-right: 100px;
 }
+
 footer{
     background-color:black ;
     float: bottom;
     color: white;
+    padding-bottom: 1rem!important;
 }
-.fab{
+
+#Creadores ul{
+ 
+}
+#Creadores{
+    margin-left: 25%;
+    width: 100%;
+}
+#Creadores p{
     color: white;
-  }
-/*
-COLORES:
-AZUL1:#81AFEA
-AZUL2:#4C71A1
-AZUL3:#2b4970
-AZUL4:#13263F
-AZUL5:#03080E
-MOREA1:#9E86EC
-MOREA2:#6752A8
-MOREA3:#403075
-MOREA4:#201642
-MOREA5:#06040E
-BERDEA1:#78ECB7
-BERDEA2:#47A97D
-BERDEA3:#277552
-BERDEA4:#10422B
-BERDEA5:#020E09
-*/
+}
+
