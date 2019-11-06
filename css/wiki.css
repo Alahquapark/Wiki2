@@ -12,9 +12,6 @@ body {
   background-color: #81afea;
 }
 
-.navbar-nav {
-  margin-right: 100px;
-}
 
 footer {
   background-color: black;
@@ -27,12 +24,13 @@ footer {
 }
 
 
-/* CAROUSEL CSS */
 #navbar {
     float: right;
     padding-right: 20px;
 }
 
+
+/* CAROUSEL CSS */
 #carousel {
     height: 70% !important;
     width: 70% !important;
