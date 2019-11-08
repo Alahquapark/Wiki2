@@ -12,7 +12,6 @@ body {
   background-color: #81afea;
 }
 
-
 footer {
   background-color: black;
   float: bottom;
@@ -23,51 +22,74 @@ footer {
   color: white;
 }
 
-
 #navbar {
-    float: right;
-    padding-right: 20px;
+  float: right;
+  padding-right: 20px;
 }
 
+h2 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+hr {
+  width: 70%;
+  margin-bottom: 50px;
+}
 
 /* CAROUSEL CSS */
 #carousel {
-    height: 70% !important;
-    width: 70% !important;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0%;
-    left: 0;
-    right: 0;
-    background: rgb(199, 199, 199);
-}
-
-#carousel img {
-    padding-top: 20px;
-    height: auto;
-    width: auto;
-    text-align: center;
+  height: 70% !important;
+  width: 70% !important;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0%;
+  left: 0;
+  right: 0;
+  background: rgb(199, 199, 199);
 }
 
 h5, p {
-    color: black;
-    background: rgba(87, 87, 87, 0.322);
+  color: black;
+  background: rgba(87, 87, 87, 0.322);
+}
+
+h5 {
+  margin-top: 20px;
 }
 
 #carousel span {
-    background-color: grey;
-    color: black;    
+  background-color: grey;
+  color: black;
 }
 
 .imgCarousel {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 250px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+  background-color: rgb(179, 179, 179);
+  /* position: relative; */
+  /* margin-bottom: 150px; */
 }
 
+.imgCarousel img {
+  flex-grow: 0 !important;
+  padding-top: 20px;
+  text-align: center;
+  height: 50px;
+  width: 300px;
+}
+
+.txtCarousel {
+  /* position: relative; */
+}
 
 
 /* COLORES:
