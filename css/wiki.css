@@ -19,11 +19,12 @@ footer{
     background-color:black ;
     color: white;
 
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     height: auto;
     width: 100%;
+  
 }
 
 
@@ -58,12 +59,13 @@ hr {
 
 /* CAROUSEL CSS */
 #carousel {
-  height: 70% !important;
-  width: 70% !important;
-  position: absolute;
+  height: 70% ;
+  width: 70% ;
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0%;
+  display: inline;
   left: 0;
   right: 0;
   background: rgb(199, 199, 199);
