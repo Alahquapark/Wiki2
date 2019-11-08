@@ -1,26 +1,45 @@
 @import url("bootstrap.min.css");
+@import url("myCss.css");
 
 header {
   background-color: #81afea;
 }
 
-header h1 {
-  margin: 0px;
+header h1{
+    margin:0px;
+    font-size: 25px;
 }
+
 
 body {
   background-color: #81afea;
 }
 
-footer {
-  background-color: black;
-  float: bottom;
-  color: white;
+footer{
+    background-color:black ;
+    color: white;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
 }
 
-.fab {
-  color: white;
+
+
+#Creadores{
+    margin-left: 25%;
+    width: 100%;
 }
+#Creadores p{
+    color: white;
+}
+
+.fab{
+    color: white;
+  }
+
 
 #navbar {
   float: right;
@@ -92,20 +111,24 @@ h5 {
 }
 
 
-/* COLORES:
-    AZUL1:#81AFEA
-    AZUL2:#4C71A1
-    AZUL3:#2b4970
-    AZUL4:#13263F
-    AZUL5:#03080E
-    MOREA1:#9E86EC
-    MOREA2:#6752A8
-    MOREA3:#403075
-    MOREA4:#201642
-    MOREA5:#06040E
-    BERDEA1:#78ECB7
-    BERDEA2:#47A97D
-    BERDEA3:#277552
-    BERDEA4:#10422B
-    BERDEA5:#020E09
+
+
+/*
+COLORES:
+AZUL1:#81AFEA
+AZUL2:#4C71A1
+AZUL3:#2b4970
+AZUL4:#13263F
+AZUL5:#03080E
+MOREA1:#9E86EC
+MOREA2:#6752A8
+MOREA3:#403075
+MOREA4:#201642
+MOREA5:#06040E
+BERDEA1:#78ECB7
+BERDEA2:#47A97D
+BERDEA3:#277552
+BERDEA4:#10422B
+BERDEA5:#020E09
 */
+
