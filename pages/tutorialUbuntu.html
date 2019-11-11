@@ -39,24 +39,20 @@
             <a class="nav-link" href="laburpena.html">Laburpena</a>
           </li>
           <li class="nav-item dropdown active">
-            <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
-              Tutorialak
-            </a>
+            <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown"> Tutorialak </a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="tutorialDebian.html">Debian</a>
               <a class="dropdown-item" href="tutorialDNS.html">DNS</a>
               <a class="dropdown-item" href="tutorialFTP.html">FTP</a>
-              <a class="dropdown-item active" href="tutorialUbuntu.html">Ubuntu</a>
+              <a class="dropdown-item" href="tutorialUbuntu.html">Ubuntu</a>
               <a class="dropdown-item" href="tutorialProxmox.html">Proxmox</a>
               <a class="dropdown-item" href="tutorialApache.html">Apache</a>
-              <a class="dropdown-item" href="bideoaGithub.html">Github</a>
+              <a class="dropdown-item" href="tutorialGithub.html">Github</a>
 
             </div>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
-              Bideoak
-            </a>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown"> Bideoak </a>
             <div class="dropdown-menu ">
               <a class="dropdown-item " href="bideoaDebian.html">bideoaDebian</a>
               <a class="dropdown-item " href="bideoaDNS.html">bideoaDNS</a>
@@ -76,17 +72,22 @@
     <a class="breadcrumb-item" href="hasiera.html">Hasiera</a>
     <span class="breadcrumb-item active">Tutorial-Ubuntu</span>
   </nav>
-  <p>tutorialUbuntu</p>
+  <!-- ------------------- -->
 
-
+  <h2>Tutorial UBUNTU</h2>
+  <hr />
 
   <!-- -------------------------------------------- -->
   <!-- CAROUSEL -->
-  <div id="carousel" class="carousel slide" data-ride="carousel">
+  <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="false">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+
     </ol>
 
     <div class="carousel-inner">
@@ -95,12 +96,10 @@
         <div class="imgCarousel">
           <img src="../images/dns/01.png" alt="img 01">
           <img src="../images/dns/02.png" alt="img 02">
-        </div>
 
-        <div class="carousel-caption d-none d-md-block">
-          <h5>PAUSO 1</h5>
+          <h5>1. PAUSOA</h5>
           <p>ProFTP zerbitzaria erabiliko dugu fitxategien transferentzia egin ahal izateko. Hasteko, esan beharra dago
-            Debian sistema eragilea erabiliko dugula hori egin ahal izataeko. Orduan, sistema eragilea eguneratu eta
+            Debian sistema eragilea erabiliko dugula hori egin ahal izateko. Orduan, sistema eragilea eguneratu eta
             ProFTP hau instalatu behar dugu.</p>
         </div>
       </div>
@@ -108,17 +107,62 @@
       <div class="carousel-item">
         <div class="imgCarousel">
           <img src="../images/dns/03.png" alt="img 03">
-          <img src="../images/dns/04.png" alt="img 04">
-        </div>
 
-        <div class="carousel-caption d-none d-md-block">
-          <h5>PAUSO 2</h5>
-          <p>DNSMASQ dns forward bat da, hau da, ez daki rootservers-era joaten, horretarako guk geuk esan behar diogu
-            zein dns-ra bideratu behar den. Horretarako ‘resolv.dnsmasq.conf’' fitxategia editatu behar dugu 10.9.52.104
-            jarriz.</p>
+          <h5>2. PAUSOA</h5>
+          <p>Hau erabili ahal izateko erabiltzaile berri bat sortuko dugu frogak egiteko erabiliko duguna. Bere buruzko
+            informazio guztia jarri beharko dugu, pasahitza barne</p>
         </div>
       </div>
 
+      <div class="carousel-item">
+        <div class="imgCarousel">
+          <img src="../images/dns/04.png" alt="img 04">
+          <img src="../images/dns/05.png" alt="img 05">
+
+
+          <h5>3. PAUSOA</h5>
+          <p>Seguritatearen aldetik, ‘root’ erabiltzaileari baimenak kenduko dizkiogu, zeren eraso gehienak erabiltzaile
+            hori erabiltzen dute helburu bezala. Horretarako, proftpd.conf fitxategira joan behar gara eta hau aldatu.
+          </p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="imgCarousel">
+          <img src="../images/dns/06.png" alt="img 06">
+
+          <h5>4. PAUSOA</h5>
+          <p>Hori egin eta gero, zerbitzua berrabiarazi behar dugu egin duguna martxan jartzeko.</p>
+        </div>
+      </div>
+
+
+      <div class="carousel-item">
+        <div class="imgCarousel">
+          <img src="../images/dns/07.png" alt="img 07">
+
+          <h5>5. PAUSOA</h5>
+          <p>Amaitzeko, FTP-a frogatuko dugu Filezilla erabiliz ta gainera fitxategiei jabea aldatuko diegu.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="imgCarousel">
+          <img src="../images/dns/08.png" alt="img 08">
+
+          <h5>6. PAUSOA</h5>
+          <p>Eta erabiltzaile anonimoei sarrera baimentzeko ha egin beharko dugu konfigurazioko fitxategian.</p>
+        </div>
+      </div>
+      
+      <div class="carousel-item">
+        <div class="imgCarousel">
+          <img src="../images/dns/09.png" alt="img 09">
+
+          <h5>7. PAUSOA</h5>
+          <p>Bukatzeko, nabigatzaileak gure linka jarri beharko dugu eta ikusiko dugu nola dena ondo doan.</p>
+        </div>
+      </div>
 
       <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -130,83 +174,87 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-    <!-- -------------------------------------------- -->
-</body>
-<!-- Footer -->
-<footer class="page-footer font-small blue pt-4">
+  </div>
+
+  <!-- -------------------------------------------- -->
+  <!-- Footer -->
+  <footer class="page-footer font-small blue pt-4">
 
     <!-- Footer Links -->
     <div class="container-fluid text-center text-md-left">
-  
+
       <!-- Grid row -->
       <div class="row">
-  
+
         <!-- Grid column -->
-        <div id="Creadores"class="col-md-3 mt-md-0 mt-3">
-  
+        <div id="Creadores" class="col-md-3 mt-md-0 mt-3">
+
           <!-- Nombrers -->
           <ul>
-              <h6>Creadores</h6>
-              </ul>
-              <ul>
-               <p> Nahia Maguregi</p>
-              </ul>
-              <ul>
-                <p>Gorka Intxausti</p>
-              </ul>
-              <ul>
-                <p>Rubén González</p>
-              </ul>
-  
+            <h6>Creadores</h6>
+          </ul>
+          <ul>
+            <p> Nahia Maguregi</p>
+          </ul>
+          <ul>
+            <p>Gorka Intxausti</p>
+          </ul>
+          <ul>
+            <p>Rubén González</p>
+          </ul>
+
         </div>
         <!-- Grid column -->
-  
+
         <hr class="clearfix w-100 d-md-none pb-3">
-  
+
         <!-- Grid column -->
         <div class="col-md-3 mb-md-0 mb-3">
-            <ul class="list-unstyled list-inline text-center">
-                <h6>Asociados</h6>
-              </ul>
-              <ul class="list-unstyled list-inline text-center">
-               <li class="list-inline-item">
-                  <a href="http://www.fptxurdinaga.hezkuntza.net/es/web/Guest">
-                    <img src="../images/txurdinaga.png" alt="logo" style="width:42px;">
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="https://www.proxmox.com/en/">
-                    <img src="../images/Proxomox.png" alt="logo" style="width:40px;">
-                     </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="https://github.com/">
-                        <img src="../images/Git.png" alt="logo" style="width:40px;">
-                    </a>
-                </li>
-              </ul>
-                <ul class="list-unstyled list-inline text-center">
-                  <li class="list-inline-item">
-                      <a href="https://www.proxmox.com/en/">
-                      <img src="../images/youtube.png" alt="logo" style="width:40px;">
-                       </a>
-                  </li>
-                  <li class="list-inline-item">
-                      <a href="https://github.com/">
-                          <img src="../images/debian.png" alt="logo" style="width:40px;">
-                      </a>
-                  </li>
-                </ul>
-  
+          <ul class="list-unstyled list-inline text-center">
+            <h6>Asociados</h6>
+          </ul>
+          <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+              <a href="http://www.fptxurdinaga.hezkuntza.net/es/web/Guest">
+                <img src="../images/txurdinaga.png" alt="logo" style="width:42px;">
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.proxmox.com/en/">
+                <img src="../images/Proxomox.png" alt="logo" style="width:40px;">
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/">
+                <img src="../images/Git.png" alt="logo" style="width:40px;">
+              </a>
+            </li>
+          </ul>
+          <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+              <a href="https://www.proxmox.com/en/">
+                <img src="../images/youtube.png" alt="logo" style="width:40px;">
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/">
+                <img src="../images/debian.png" alt="logo" style="width:40px;">
+              </a>
+            </li>
+          </ul>
+
         </div>
         <!-- Grid column -->
       </div>
       <!-- Grid row -->
-  
+
     </div>
     <!-- Footer Links -->
-  
-</footer>
-<!-- Footer -->
+
+  </footer>
+  <!-- Footer -->
+
+
+</body>
 
 </html>

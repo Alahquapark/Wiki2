@@ -58,7 +58,7 @@ hr {
 
 /* CAROUSEL CSS */
 #carousel {
-  height: 400px !important;
+  height: 70% !important;
   width: 70% !important;
   position: relative;
   margin-left: auto;
