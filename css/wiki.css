@@ -19,13 +19,15 @@ body {
   width: auto;
 }
 
-footer {
-  background-color: #343a40;
-  color: white;
-  clear: both;
-  position: absolute;  
-  height: auto;
-  width: 100%;
+footer{
+    background-color:black ;
+    color: white;
+
+    position: absolute;
+    left: 0;
+    height: auto;
+    width: 100%;
+  
 }
 
 #Creadores {
@@ -105,8 +107,29 @@ h5 {
   text-align: center;
 }
 
-.txtCarousel {
+/* .txtCarousel {*/
   /* position: relative; */
+/*} */
+
+/************
+BIDEOAK
+*************/
+.video {
+  position: relative;
+  padding-bottom: 56.25%; /* 16/9 ratio */
+  padding-top: 30px; /* IE6 workaround*/
+  height: 0;
+  overflow: hidden;
+}
+    
+.video iframe,
+.video object,
+.video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /*
