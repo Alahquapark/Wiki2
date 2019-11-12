@@ -1,5 +1,4 @@
 @import url("bootstrap.min.css");
-@import url("myCss.css");
 
 header {
   background-color: #81afea;
@@ -20,13 +19,13 @@ body {
 }
 
 footer{
-    background-color:black ;
-    color: white;
+  background-color:black ;
+  color: white;
 
-    position: absolute;
-    left: 0;
-    height: auto;
-    width: 100%;
+  position: absolute;
+  left: 0;
+  height: auto;
+  width: 100%;
   
 }
 
