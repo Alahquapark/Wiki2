@@ -18,6 +18,8 @@ body {
   width: auto;
 }
 
+/* FOOTER */
+
 footer{
   background-color:black ;
   color: white;
@@ -41,6 +43,9 @@ footer{
 .fab {
   color: white;
 }
+/* **************** */
+
+/* NABVAR */
 
 #navbar {
   float: right;
@@ -56,6 +61,7 @@ hr {
   width: 70%;
   margin-bottom: 50px;
 }
+/* *************** */
 
 /* CAROUSEL CSS */
 #carousel {
@@ -70,8 +76,7 @@ hr {
   background: rgb(199, 199, 199);
 }
 
-h5,
-p {
+h5, p {
   color: black;
   background: rgba(87, 87, 87, 0.322);
 }
@@ -106,13 +111,18 @@ h5 {
   text-align: center;
 }
 
-/* .txtCarousel {*/
-  /* position: relative; */
-/*} */
+.imgGrande {
+  width: 60%;
+}
+
+.imgLargo {
+  width: 40%;
+}
 
 /************
-BIDEOAK
-*************/
+
+/* BIDEOAK */
+
 .video {
   position: relative;
   padding-bottom: 56.25%; /* 16/9 ratio */
@@ -131,6 +141,7 @@ BIDEOAK
   height: 100%;
 }
 
+/* ******* */
 /*
 COLORES:
 AZUL1:#81AFEA
