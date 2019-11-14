@@ -20,15 +20,26 @@ body {
 }
 
 footer{
- 
-  
-    background-color: black;
+
+  background-color: black;
   position: absolute;
-  bottom: 0;
+  left: 0;
   width: 100%;
   height: auto;
   color: white;
     
+}
+.col{
+  color: white;
+}
+.logos{
+  width:40px;
+}
+.logosFondo{
+  background-color: rgba(255, 251, 251, 0.082);
+  width:40px;
+
+
 }
 
 #Creadores {
