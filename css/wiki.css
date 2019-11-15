@@ -1,5 +1,6 @@
 @import url("bootstrap.min.css");
 
+
 header {
   background-color: #81afea;
 }
@@ -18,17 +19,27 @@ body {
   width: auto;
 }
 
-/* FOOTER */
-
 footer{
-  background-color:black ;
-  color: white;
 
+  background-color: black;
   position: absolute;
   left: 0;
-  height: auto;
   width: 100%;
-  
+  height: auto;
+  color: white;
+    
+}
+.col{
+  color: white;
+}
+.logos{
+  width:40px;
+}
+.logosFondo{
+  background-color: rgba(255, 251, 251, 0.082);
+  width:40px;
+
+
 }
 
 #Creadores {
@@ -43,9 +54,6 @@ footer{
 .fab {
   color: white;
 }
-/* **************** */
-
-/* NABVAR */
 
 #navbar {
   float: right;
@@ -61,11 +69,10 @@ hr {
   width: 70%;
   margin-bottom: 50px;
 }
-/* *************** */
 
 /* CAROUSEL CSS */
 #carousel {
-  height: 70% !important;
+  height: 400px !important;
   width: 70% !important;
   position: relative;
   margin-left: auto;
@@ -76,7 +83,8 @@ hr {
   background: rgb(199, 199, 199);
 }
 
-h5, p {
+h5,
+p {
   color: black;
   background: rgba(87, 87, 87, 0.322);
 }
@@ -111,18 +119,13 @@ h5 {
   text-align: center;
 }
 
-.imgGrande {
-  width: 60%;
-}
-
-.imgLargo {
-  width: 40%;
-}
+/* .txtCarousel {*/
+  /* position: relative; */
+/*} */
 
 /************
-
-/* BIDEOAK */
-
+BIDEOAK
+*************/
 .video {
   position: relative;
   padding-bottom: 56.25%; /* 16/9 ratio */
@@ -141,7 +144,6 @@ h5 {
   height: 100%;
 }
 
-/* ******* */
 /*
 COLORES:
 AZUL1:#81AFEA
