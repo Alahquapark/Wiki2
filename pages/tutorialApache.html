@@ -72,8 +72,8 @@
   </nav>
   <!-- ------------------- -->
   <h2>Tutorial APACHE</h2>
-  <hr />
-  <p class="explicacion">DNSMASQ erabiliko dugu DNS zerbitzari bat konfiguratu ahal izateko, gainera bezeroei bideratutako erantzunak ere pertsonalizatu ditzakegu. </p>
+  <hr/>
+  <p class="explicacion">Apache web zerbitzari bat da non bertan gure dokumentuak igo ahal izango ditugu.</p>
 
   <!-- -------------------------------------------- -->
   <!-- CAROUSEL -->
@@ -92,70 +92,83 @@
 
       <div class="carousel-item active">
         <div class="imgCarousel">
-          <img src="../images/dns/01.png" alt="img 01">
-          <img src="../images/dns/02.png" alt="img 02">
+          <img src="../images/apache/01.png" alt="img 01">
+          <img src="../images/apache/02.png" alt="img 02">
 
           <h5>1. PAUSOA</h5>
-          <p>ProFTP zerbitzaria erabiliko dugu fitxategien transferentzia egin ahal izateko. Hasteko, esan beharra dago
-            Debian sistema eragilea erabiliko dugula hori egin ahal izateko. Orduan, sistema eragilea eguneratu eta
-            ProFTP hau instalatu behar dugu.</p>
+          <p>Hasteko, sistema eragilea eguneratu beharko dugu eta hori egin eta gero segidan apache instalatu beharko dugu. Dependetziak konfirmatu eta gero instalazioa bukatzerakoan localhost-era sartu beharko gara ikusteko ea ondo instalatu den. Esan beharra dago gure dokukentuak /var/www/html karpetan gordetzen direla.</p>
         </div>
       </div>
 
       <div class="carousel-item">
         <div class="imgCarousel">
-          <img src="../images/dns/03.png" alt="img 03">
-          <img src="../images/dns/04.png" alt="img 04">
+          <img src="../images/apache/01.png" alt="img 01">
+          <img src="../images/apache/03.png" alt="img 03">
 
           <h5>2. PAUSOA</h5>
-          <p>DNSMASQ dns forward bat da, hau da, ez daki rootservers-era joaten, horretarako guk geuk esan behar diogu
-            zein dns-ra bideratu behar den. Horretarako ‘resolv.dnsmasq.conf’' fitxategia editatu behar dugu 10.9.52.104
-            jarriz.</p>
+          <p>Instalatuta daukagunean, Apacheko prozesuak limitatu beharko ditugu. Hori egin ahal izateko, Apacheko modulu bat instalatu beharko dugu MPM Prefolk izenekoa. Berriz aktualizatu eta instalazioarekin hasiko gara.</p>
         </div>
       </div>
 
       <div class="carousel-item">
         <div class="imgCarousel">
-          <img src="../images/dns/05.png" alt="img 05">
-          <img src="../images/dns/06.png" alt="img 06">
+          <img src="../images/apache/04.png" alt="img 04">
+          <img src="../images/apache/05.png" alt="img 05">
+          <img src="../images/apache/restart.png" alt="img restart">
 
           <h5>3. PAUSOA</h5>
-          <p>Hori egin eta gero, ‘dnsmasq.conf’ fitxategian lerro bat deskomentatu behar dugu.</p>
+          <p>Hori egiterakoan, konfigurazio fitxategia editatu beharkodugu, hau da, ‘apache2.conf’ fitxategian hau jarri behar dugu. Eta hori egin eta gero berriz ere Apache berrabiarazi beharko dugu.</p>
         </div>
       </div>
 
       <div class="carousel-item">
         <div class="imgCarousel">
-          <img src="../images/dns/07.png" alt="img 07">
-          <img src="../images/dns/08.png" alt="img 08">
+          <img src="../images/apache/06.png" alt="img 06">
+          <img src="../images/apache/07.png" alt="img 07">
 
           <h5>4. PAUSOA</h5>
-          <p>Segidan, ‘resolv.conf’ fitxategian gure zerbitzariko IPa jarri beharko dugu.</p>
+          <p>Hori egin eta gero, zerbitzari birtualak konfiguratzen hasi beharko gara. Hasteko, orrialdearen konfigurazio fitxategia editatu beharko dugu. Hemen, petizioei zein orrialde erakutsi beharko dien jarriko diogu.</p>
         </div>
       </div>
 
 
       <div class="carousel-item">
         <div class="imgCarousel">
-          <img src="../images/dns/07.png" alt="img 09">
-          <img src="../images/dns/08.png" alt="img 10">
+          <img src="../images/dns/08.png" alt="img 08">
 
           <h5>5. PAUSOA</h5>
-          <p>Amaitzen joateko, ‘hosts’ fitxategian gure web orrialdearen izena jarri beharko dugu, gure kasuan
-            www.euskaradaw.com izango da.</p>
+          <p>Adibidez, fitxategi hori irekitzen dugunean honelako zerbait agertuko zaigu, hemen gure datuak sartuko ditugu. Gure kasuan honelako datuak izango ditu, gure web orrialdea honela deituko delako.</p>
         </div>
       </div>
 
       <div class="carousel-item">
         <div class="imgCarousel">
-          <img src="../images/dns/07.png" alt="img 11">
-          <img src="../images/dns/08.png" alt="img 12">
+          <img src="../images/dns/09.png" alt="img 09">
 
           <h5>6. PAUSOA</h5>
-          <p>Azkenik, zerbait aldatzen dugun bakoitzean zerbitzaria berrabiarazi behar dugu eta orduan link hori
-            jartzerako orduan gure apacheko orrialdea hasi behar da.</p>
+          <p>Hori egin eta gero, gure orrialdea sortu beharko dugu, gurea ‘www.euskaraDaw.com’ deituko da eta bertan gure index.html-a jarriko diogu. Baina, ez badaukagu direktoria sortuta ezer ere ez sortuta, hau egin beharko zen.</p>
         </div>
       </div>
+
+      <div class="carousel-item">
+        <div class="imgCarousel">
+          <img src="../images/dns/10.png" alt="img 10">
+          <img src="../images/dns/11.png" alt="img 11">
+
+          <h5>7. PAUSOA</h5>
+          <p>Amaitzeko, gure index.html-a lehen sortutako direktorioan sartu beharko dugu, hórrela gure web orrialdera sartzerakoan orrialde hori agertuko zaio bezeroari. Apache balidatzeko komando hau egin eta gero berrabirazi egin beharko dugu zerbitzua.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="imgCarousel">
+          <img src="../images/dns/09.png" alt="img 09">
+
+          <h5>8. PAUSOA</h5>
+          <p>Hori egin eta gero, gure orrialdea sortu beharko dugu, gurea ‘www.euskaraDaw.com’ deituko da eta bertan gure index.html-a jarriko diogu. Baina, ez badaukagu direktoria sortuta ezer ere ez sortuta, hau egin beharko zen.</p>
+        </div>
+        </div>
+
 
       <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
